@@ -20,6 +20,13 @@ This project collects launch data, performs exploratory analysis, and builds cla
 - Build and evaluate machine learning classification models
 - Identify the best-performing model for predicting landing outcomes
 ---
+
+## Deliverables
+- Jupyter notebooks for data collection, wrangling, EDA, and predictive analysis
+- Interactive visualizations using Folium and Plotly Dash
+- PDF presentation summarizing methodology, results, and conclusions
+---
+
  
 ## Repository Structure
  
@@ -40,6 +47,7 @@ This project collects launch data, performs exploratory analysis, and builds cla
 - **EDA** — SQL queries, Matplotlib, Seaborn, Folium maps, Plotly Dash dashboard
 - **Machine Learning** — Logistic Regression, Decision Tree, SVM, KNN (scikit-learn)
 - **Model Evaluation** — Accuracy, confusion matrix, GridSearchCV tuning
+
 ---
  
 ## Requirements
@@ -57,20 +65,13 @@ Key dependencies: `pandas`, `numpy`, `beautifulsoup4`, `requests`, `matplotlib`,
 Run the notebooks in order:
  
 1. `01_data_collection_api.ipynb` — Fetch data from SpaceX REST APIs
-2. `02_data_collection_scraping.ipynb` — Web Scrape Wikipedia table for falcon 9 launch data
+2. `02_data_collection_scraping.ipynb` — Web Scrape Wikipedia table for Falcon 9 launch data
 3. `03_data_wrangling.ipynb` — Clean and prepare the dataset
 4. `04_eda_sql.ipynb` — Exploratory data analysis (EDA) with SQL
 5. `05_eda_visualization.ipynb` — EDA with visualization
 6. `06_launch_site_map.ipynb` — Interactive map with Folium
 7. `07_dashboard.ipynb` — Plotly Dash interactive dashboard
 8. `08_predictive_analysis.ipynb` — ML model training, tuning and evaluation
----
- 
-## Results
- 
-The best-performing model achieved **X% accuracy** on the test set. >>>>>......update this also: Logistics Regression, Decision Tree and SVM models showed strong performance after hyperparameter tuning with GridSearchCV.
- 
-> INCOMPLETE: add results.
  
 ---
  
@@ -80,6 +81,6 @@ The best-performing model achieved **X% accuracy** on the test set. >>>>>......u
  
 ---
  
-# License
+## License
  
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
