@@ -26,7 +26,7 @@ This project collects launch data, performs exploratory analysis, and builds cla
 ```
 ├── notebooks/              # Jupyter notebooks (data collection & wrangling, EDA, visualization, modeling)
 ├── workflow/               # Flowcharts
-├── results_images/         # Result images
+├── results/                # Result images
 ├── README.md
 └── requirements.txt
 ```
