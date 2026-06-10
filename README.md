@@ -42,11 +42,11 @@ This project collects launch data, performs exploratory analysis, and builds cla
  
 ## Methods
  
-- **Data Collection** — SpaceX REST API, BeautifulSoup web scraping
-- **Data Wrangling** — Pandas, one-hot encoding, feature engineering
-- **EDA** — SQL queries, Matplotlib, Seaborn, Folium maps, Plotly Dash dashboard
-- **Machine Learning** — Logistic Regression, Decision Tree, SVM, KNN (scikit-learn)
-- **Model Evaluation** — Accuracy, confusion matrix, GridSearchCV tuning
+- **Data Collection** - SpaceX REST API, BeautifulSoup web scraping
+- **Data Wrangling** - Pandas, one-hot encoding, feature engineering
+- **EDA** - SQL queries, Matplotlib, Seaborn, Folium maps, Plotly Dash dashboard
+- **Machine Learning** - Logistic Regression, Decision Tree, SVM, KNN (scikit-learn)
+- **Model Evaluation** - Accuracy, confusion matrix, GridSearchCV tuning
 
 ---
  
@@ -64,8 +64,8 @@ Key dependencies: `pandas`, `numpy`, `beautifulsoup4`, `requests`, `matplotlib`,
  
 Run the notebooks in order:
  
-1. `01_data_collection_api.ipynb` — Fetch data from SpaceX REST APIs
-2. `02_data_collection_scraping.ipynb` — Web Scrape Wikipedia table for Falcon 9 launch data
+1. `01_data_collection_api.ipynb` - Fetch data from SpaceX REST APIs
+2. `02_data_collection_scraping.ipynb` - Web Scrape Wikipedia table for Falcon 9 launch data
 3. `03_data_wrangling.ipynb` — Clean and prepare the dataset
 4. `04_eda_sql.ipynb` — Exploratory data analysis (EDA) with SQL
 5. `05_eda_visualization.ipynb` — EDA with visualization
