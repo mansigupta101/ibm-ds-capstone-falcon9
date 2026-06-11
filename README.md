@@ -67,9 +67,9 @@ Run the notebooks in order:
 1. `01_data_collection_api.ipynb` - Fetch data from SpaceX REST APIs
 2. `02_data_collection_scraping.ipynb` - Web Scrape Wikipedia table for Falcon 9 launch data
 3. `03_data_wrangling.ipynb` - Clean and prepare the dataset
-4. `04_eda_sql.ipynb` - Exploratory data analysis (EDA) with SQL
-5. `05_eda_visualization.ipynb` - EDA with visualization
-6. `06_launch_site_map.ipynb` - Interactive map with Folium
+4. `04_eda_visualization.ipynb` - Exploratory data analysis (EDA) with visualization
+5. `05_eda_sql.ipynb` - EDA with SQL
+6. `06_launch_site_map_folium.ipynb` - Interactive map with Folium
 7. `07_dashboard.ipynb` - Plotly Dash interactive dashboard
 8. `08_predictive_analysis.ipynb` - ML model training, tuning and evaluation
  
