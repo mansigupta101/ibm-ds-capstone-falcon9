@@ -71,7 +71,7 @@ Run the notebooks in order:
 5. `05_eda_sql.ipynb` - EDA with SQL
 6. `06_launch_site_map_folium.ipynb` - Interactive map with Folium
 7. `07_dashboard.ipynb` - Plotly Dash interactive dashboard
-8. `08_predictive_analysis.ipynb` - ML model training, tuning and evaluation
+8. `08_predictive_analysis_classification.ipynb` - ML model training, tuning and evaluation
  
 ---
  
